@@ -11,7 +11,8 @@ function Product(props) {
                  id:props.id,
                  title:props.title,
                  image:props.logo,
-                 rating:props.rating
+                 rating:props.rating,
+                 price:props.price
              }
          })
     }
@@ -21,7 +22,7 @@ function Product(props) {
             <p>{props.title}</p>
             <p className="product-price">
                 <small>$</small>
-                <strong>{props.price}</strong>
+                <p>{props.price}</p>
             </p>
             <div class="product-rating">
                <p>{props.rating}</p>

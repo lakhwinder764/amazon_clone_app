@@ -19,7 +19,7 @@ const Home=()=>{
       <Product  id="3"  title="hello" price="300" rating="⭐⭐" logo={logo2} />
         <Product id="4"  title="world" price="400" rating="⭐⭐⭐⭐" logo={logo1}/>
         <Product id="5"  title="hello" price="300" rating="⭐⭐" logo={logo2} />
-        <Product id="6"  title="world" price="400" rating="⭐⭐⭐⭐" logo={logo1}/>
+        
       </div>
       <div className="home-row">
       <Product id="7" title="hello" price="300" rating="⭐⭐" logo={logo2} />
